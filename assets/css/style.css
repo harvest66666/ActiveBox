@@ -12,11 +12,19 @@ body {
 	box-sizing: border-box;
 }
 
+/*! wrapper */
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
 /*! Container */
 .container {
 	width: 100%;
-	max-width: 1170px;
+	max-width: 1200px;
 	margin: auto;
+	padding: 0 15px;
 }
 
 /*! Header */
@@ -209,12 +217,23 @@ body {
 
 	border-bottom: 1px solid #fff;
 	border-right: 1px solid #fff;
+
+}
+.works__item:nth-child(4) {
+	border-right: 0px;
+}
+.works__item:nth-child(8) {
+	border-right: 0px;
+}
+.works__item {
+
 }
 .works__img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	z-index: 1;
+	min-width: 100%;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
