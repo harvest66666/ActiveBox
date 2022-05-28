@@ -12,7 +12,7 @@
 		font-size: 40px;
 	}
 
-	 .intro__subtitle {
+	.intro__subtitle {
 		font-size: 18px;
 	}
 	/* benefits */
@@ -43,13 +43,10 @@
 		flex: 0 1 100%;
 	}
 	.clients__img {
-		left: 50%;
-		transform: translate(-50%, -50%);
-		-webkit-transform: translate(-50%, -50%);
-		-moz-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		-o-transform: translate(-50%, -50%);
-}
+		min-width: 991px;
+		right: -15px;
+	}
+
 	.clients__content {
 		flex: 0 1 100%;
 		text-align: center;
@@ -137,6 +134,13 @@
 	.intro__subtitle {
 		font-size: 14px;
 	}
+	/* benefits */
+	.benefits {
+		padding: 50px 0 0 0;
+	}
+	.benefits__item {
+		padding: 0 20px;
+	}
 	/* team */
 	.team__item {
 		padding: 0px 20px;
@@ -168,5 +172,12 @@
 	/* copyright */
 	.copyright {
 		font-size: 13px;
+	}
+}
+
+@media (max-width: 414px) {
+	/* clients */
+	.clients__img {
+		right: -120px;
 	}
 }

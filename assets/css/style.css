@@ -12,12 +12,6 @@ body {
 	box-sizing: border-box;
 }
 
-/*! wrapper */
-
-.wrapper {
-	min-height: 100%;
-	overflow: hidden;
-}
 
 /*! Container */
 .container {
@@ -169,14 +163,13 @@ body {
 
 /*! benefits */
 .benefits {
-	padding: 120px 0 60px 0;
+	padding: 121px 0 57px 0;
 }
 
 .benefits__inner {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 0 -48px;
 }
 .benefits__item {
 	flex: 0 1 33.333333%;
@@ -186,7 +179,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding: 0px 48px;
+	padding: 0px 47px;
 	margin: 0 0 75px 0;
 }
 .item__img {
