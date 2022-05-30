@@ -29,6 +29,14 @@ body {
 	z-index: 999;
 	width: 100%;
 }
+.header.fixed {
+	position: fixed;
+	background-color: #31344e;
+}
+.header.fixed .header__inner {
+	padding: 23px 0;
+	border: none;
+}
 .header__inner {
 	display: flex;
 	justify-content: space-between;
@@ -38,7 +46,6 @@ body {
 }
 .header__logo {
 }
-
 /*! nav */
 .nav {
 
@@ -111,7 +118,7 @@ body {
 	justify-content: center;
 	height: 750px;
 	width: 100%;
-	background: url("../img/intro/intro-bg.png") center /  cover no-repeat;
+	background: #2d304b url("../img/intro/intro-bg.png") center /  cover no-repeat;
 	padding-top: 100px;
 }
 .intro__inner {
@@ -412,7 +419,7 @@ body {
 /*! download */
 
 .download {
-	margin: 100px 0;
+	padding: 100px 0;
 	text-align: center;
 }
 .download__title {
