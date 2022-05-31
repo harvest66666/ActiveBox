@@ -2,6 +2,21 @@
 	/* nav */
 	.nav {
 		display: none;
+		width: 100%;
+		flex-direction: column;
+	
+		position: absolute;
+		top: 100%;
+		right: 0;
+	
+		text-align: right;
+		background-color: #2d304b;
+	}
+	.nav.show {
+		display: flex;
+	}
+	.nav__link {
+		padding: 10px 15px;
 	}
 	/* burger */
 	.burger {
@@ -51,6 +66,9 @@
 		flex: 0 1 100%;
 		text-align: center;
 		padding: 70px;
+	}
+	.slick-dots {
+		width: 100%;
 	}
 	/* footer */
 	.footer__block {
